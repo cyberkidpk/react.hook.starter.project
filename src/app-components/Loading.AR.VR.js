@@ -18,12 +18,12 @@ const LoadingARVR = () => {
   return (
     <div>
       <p>
-        Amgen
+        PROJECT
         <strong>
-        &nbsp;PRODUCT 360&deg; &nbsp;
+        &nbsp;YOUR TITLE &nbsp;
         </strong>
         uses your network username and password to login to the App.
-        Continue to login to PRODUCT 360&deg; through your network.
+        Continue to login to YOUR TITLE through your network.
         <br />
         <Button onClick={
           () => { MESSENGING_HANDLERS.dispatchSuccessMsg(dispatch, { message: { type: 'success', message: 'CHECK CHECK MESSAGES', description: 'PK description' }, reqPayMod: requestPayloadModel }); }
