@@ -10,7 +10,7 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Suspense fallback={<div>Loading...</div>}><SplashARVRLayout /></Suspense>} />
-      <Route path="/product360" element={<Suspense fallback={<div>Loading...</div>}><SplashARVRLayout /></Suspense>} />
+      <Route path="/appinit" element={<Suspense fallback={<div>Loading...</div>}><SplashARVRLayout /></Suspense>} />
     </Routes>
   );
 };
